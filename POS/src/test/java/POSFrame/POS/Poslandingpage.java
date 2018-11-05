@@ -13,7 +13,7 @@ public class Poslandingpage {
 	WebDriver driver=new ChromeDriver();
 	driver.manage().window().maximize();
 
-	driver.get("https://www.google.co.in/?gws_rd=ssl");
+	driver.get("http://localhost:2793/");
 	}	
 
 }
